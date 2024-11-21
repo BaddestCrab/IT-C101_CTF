@@ -27,13 +27,13 @@ label, input, button {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4682B4;
     color: white;
     display: incline-block;
     border: none;
     padding: 10px 20x;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1px solid #ccc;
 }
 
 button:hover {
