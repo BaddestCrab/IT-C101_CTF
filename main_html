@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+</head>
+<body>
+    <h1>Simple Input Form</h1>
+    <form>
+        <label for="input1">First Input:</label>
+        <br>
+        <input type="text" id="input1" name="input1">
+        <br><br>
+        <label for="input2">Second Input:</label>
+        <br>
+        <input type="text" id="input2" name="input2">
+        <br><br>
+        <label for="input3">Third Input:</label>
+        <br>
+        <input type="text" id="input3" name="input3">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
