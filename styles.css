@@ -29,6 +29,7 @@ label, input, button {
 button {
     background-color: #4CAF50;
     color: white;
+    display: incline-block;
     border: none;
     padding: 10px 20x;
     cursor: pointer;
