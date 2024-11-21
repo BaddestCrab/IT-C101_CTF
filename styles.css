@@ -22,7 +22,7 @@ form, .button-container {
 
 label, input, button {
     display: block;
-    width: 100%;
+    width: 50%;
     margin-bottom: 10px;
 }
 
