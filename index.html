@@ -6,9 +6,9 @@
     <title>CTF Challenge</title>
     <script>
         function validateInputs() {
-            const input1 = document.getElementByID("input1").value.toLowerCase();
-            const input2 = document.getElementByID("input2").value.toLowerCase();
-            const input3 = document.getElementByID("input3").value.toLowerCase();
+            const input1 = document.getElementById("input1").value.toLowerCase();
+            const input2 = document.getElementById("input2").value.toLowerCase();
+            const input3 = document.getElementById("input3").value.toLowerCase();
 
             if (input1 === "yoda" && input2 === "vader" && input3 === "boba") {
                 alert("Inputs are correct!");
@@ -22,7 +22,7 @@
     <h1>IT&C 101 CTF Project</h1>
     <br> <button onclick="window.open('https://www.google.com', '_blank')">Click here for AI</button>
     <br><br>
-    <form>
+    <form onsubmit="validateInputs(); return false;">
         <label for="input1">First Input:</label>
         <br><br>
         <input type="text" id="input1" name="input1">
