@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Webpage</title>
+    function checkInputs(event) {
+    event.preventDefault();
+    var input1 = document.getElementById('input1').value.toLowerCase();
+    var input2 = document.getElementById('input2').value.toLowerCase();
+    var input3 = document.getElementById('input3').value.toLowerCase();
+
+    if (input1 === 'yoda' && input2 === 'vader' && input3 === 'boba') {
+        window.open('https://www.lds.org', '_blank');
+    } else {
+        alert('Inputs do not match the required values.');
+    }
+}
 </head>
 <body>
     <h1>IT&C 101 CTF Project</h1>
