@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CTF Challenge</title>
     <script>
-        function checkInputs(event) {
-            event.preventDefault();
-            var input1 = document.getElementById('input1').value.toLowerCase();
-            var input2 = document.getElementById('input2').value.toLowerCase();
-            var input3 = document.getElementById('input3').value.toLowerCase();
-        
-            if (input1 === 'yoda' && input2 === 'vader' && input3 === 'boba') {
-                window.open('https://www.lds.org', '_blank');
+        function validateInputs() {
+            const input1 = document.getElementByID("input1").value.toLowerCase();
+            const input2 = document.getElementByID("input2").value.toLowerCase();
+            const input3 = document.getElementByID("input3").value.toLowerCase();
+
+            if (input1 === "yoda" && input2 === "vader" && input3 === "boba") {
+                alert("Inputs are correct!");
             } else {
-                alert('Inputs do not match the required values.');
-            }
+                    alert("Inputs are incorrect. Please trt again.");
+                }
         }
     </script>
 </head>
